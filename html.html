@@ -54,7 +54,7 @@
           Tehran,IRAN
         </h1>
         <ul>
-          <li id="date"></li>
+          <li>Last updated: <span id="date"></span></li>
           <li>
             Partly Cloudy
           </li>
@@ -67,6 +67,7 @@
                 src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                 alt="Cloudy icon"
                 class="weather-icon float-left"
+                id="icon"
               />
               <div class="float-left">
                 <span class="temperature" id="temperature">19</span
@@ -82,18 +83,13 @@
             <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> km/h</li>
-            
             </ul>
-          
-          </div>
         </div>
-            </div>
+        </div>     
             <div class="weather-forecast" id="forecast"></div>
           </div>
-        </div>
       </div>
     </div>
-    <script src="src/index.js"></script>
     <small>
       <a
         href="https://github.com/fati-mir80/weather-app"
@@ -102,5 +98,6 @@
       >
       by FatiMir
     </small>
+    <script src="src/index.js"></script>
   </body>
 </html>
